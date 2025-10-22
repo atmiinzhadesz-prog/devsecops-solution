@@ -49,8 +49,8 @@ jobs:
         run: |
           # ใช้ sonar-scanner ที่ติดตั้งไว้ global
           sonar-scanner \
-            -Dsonar.projectKey=kitthapat-j_devsecops-fullsolution \
-            -Dsonar.organization=kitthapat-j \
+            -Dsonar.projectKey=atmiinzhadesz-prog_devsecops-solution \
+            -Dsonar.organization=atmiinzhadesz-prog \
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
             -Dsonar.sources=app \
@@ -71,7 +71,7 @@ jobs:
               github, 
               core, 
               fetch,
-              projectKey: 'kitthapat-j_devsecops-fullsolution'
+              projectKey: 'atmiinzhadesz-prog_devsecops-solution'
             });
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
