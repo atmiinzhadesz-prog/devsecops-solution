@@ -9,3 +9,11 @@
   "author": "",
   "license": "ISC"
 }
+
+"script":{
+  "start": "node index.js",
+  "sonar": "node_modules/sonar-scanner/bin/sonar-"
+},
+"devDependencies":{
+  "jest": "^"
+}
